@@ -1,0 +1,17 @@
+{
+  "name": "@hyeongwangjang/github-package-test",
+  "version": "0.0.1-beta-1",
+  "description": "패키지 배포에 관하여 이것저것 테스트 해보는 용도",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HyeongwangJang/map-beta"
+  },
+  "scripts": {
+    "setup": "node setupPackage.js",
+    "publish": "node setupPackage.js && cd lib && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
