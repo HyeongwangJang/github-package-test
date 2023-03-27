@@ -30,5 +30,8 @@ lib/package.json
 lib/version.txt
 lib/.npmignore
 
+# dist
+dist
+
 # markdown
 TOKEN.md

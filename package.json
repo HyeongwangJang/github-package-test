@@ -1,6 +1,6 @@
 {
   "name": "@hyeongwangjang/github-package-test",
-  "version": "0.0.1-beta-2",
+  "version": "0.0.1-beta-3",
   "description": "패키지 배포에 관하여 이것저것 테스트 해보는 용도",
   "type": "module",
   "repository": {
@@ -9,9 +9,12 @@
   },
   "scripts": {
     "setup": "node setupPackage.js",
-    "publish": "node setupPackage.js && cd lib && npm publish"
+    "publish": "node setupPackage.js && cd dist && npm publish"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^11.1.1"
+  }
 }
