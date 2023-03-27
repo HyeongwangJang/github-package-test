@@ -25,7 +25,7 @@ function main() {
       parsedPackageJson.main = parsedPackageJson.main.slice(4)
     }
     // dependency 설정
-    parsedPackageJson.dependencies = {}
+    // parsedPackageJson.dependencies = {}
   
     // peer dependency 설정
   
