@@ -29,3 +29,6 @@ dist-ssr
 lib/package.json
 lib/version.txt
 lib/.npmignore
+
+# markdown
+TOKEN.md
